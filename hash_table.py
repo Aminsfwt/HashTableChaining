@@ -1,5 +1,5 @@
 
-#Hash Table Data Structure to deal with colission data using Separate Chaining
+#Hash Table Data Structure to deal with collission data using Separate Chaining
 class HashTable:
     def __init__(self):
         self.max = 10
@@ -41,46 +41,3 @@ class HashTable:
 
         #self.array[h_del] = None  
 
-
-
-
-v = HashTable()
-
-v['march 1'] = 110
-v['march 2'] = 220
-v['march 3'] = 330
-v['march 4'] = 440
-v['march 5'] = 550
-v['march 6'] = 660
-v['march 7'] = 770
-v['march 8'] = 880
-v['march 9'] = 990
-v['march 10'] = 1100
-v['march 17'] = 1700
-v['march 18'] = 1800
-
-print(v["march 17"])
-#del v["march 6"]
-print(v["March 6"])
-print(v.array)
-
-print('*'*50)
-print(v.get_hash('march 7'))
-print(v.get_hash('march 18'))
-print('*'*50)
-print(v.get_hash('march 8'))
-print('*'*50)
-print(v.get_hash('march 9'))
-print(v.get_hash('march 10'))
-print(v.get_hash('march 1'))
-
-#v['march 901'] = 90101
-#
-
-#
-
-"""print(v["March 1"])
-print(v["March 3"])
-print(v["March 4"])
-print(v["March 5"])
-"""
